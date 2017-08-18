@@ -1,12 +1,12 @@
-# wrightWeatherApp
+# wright-weather-app
 
-This is an Angular 1.0 weather app.
+This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
+version 0.16.0.
 
-The Goals:
-  1. Work with the yo angular command in yeoman to scaffold an app together
-  2. Fill in data using OpenWeatherMap.org/API specifically (Current weather data & 5 day forecast)
-  3. Make the page responsive and be able to swap between the two data sets
-  4. Have the app publically available when the server is turned on.
-  
-The Lesson:
-  I will be learning how API data is fed into a Javascript framework inside of Node.js server and I will be continuing to improve with yeoman/grunt/gulp.
+## Build & development
+
+Run `grunt` for building and `grunt serve` for preview.
+
+## Testing
+
+Running `grunt test` will run the unit tests with karma.
