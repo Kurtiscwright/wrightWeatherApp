@@ -37,9 +37,18 @@
 
           <div class="collapse navbar-collapse" id="js-navbar-collapse">
 
+            <h2>An Adding Machine!!</h2>
+            <div ng-app ng-init="firstnum=1;secondnum=2">
+              <input type="number" min="0" ng-model="firstnum">
+                plus
+              <input type="number" min="0" ng-model="secondnum">
+                equals
+              <span class="label label-success">{{firstnum + secondnum}}</span>
+            </div>
+
             <ul class="nav navbar-nav">
               <li class="active"><a href="#/">Home</a></li>
-              <li><a ng-href="#/about">About</a></li>
+              <li><a ng-href="../views/about.html">About</a></li>
               <li><a ng-href="#/">Contact</a></li>
             </ul>
           </div>
