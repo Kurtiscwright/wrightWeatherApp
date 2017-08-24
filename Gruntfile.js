@@ -16,9 +16,9 @@ module.exports = function (grunt) {
   require('jit-grunt')(grunt, {
     useminPrepare: 'grunt-usemin',
     ngtemplates: 'grunt-angular-templates',
-    cdnify: 'grunt-google-cdn'
+    cdnify: 'grunt-google-cdn',
     buildcontrol: 'grunt-build-control'
-  });
+});
 
   // Configurable paths for the application
   var appConfig = {
@@ -40,9 +40,9 @@ module.exports = function (grunt) {
         message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
       },
       pages: {
-        options {
+        options: {
           remote: 'git@github.com:Kurtiscwright/wrightWeatherApp.git',
-          branch: 'gh-pages',
+          branch: 'gh-pages'
         }
       }
     },
